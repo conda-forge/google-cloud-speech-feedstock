@@ -16,12 +16,14 @@ build:
 
 requirements:
   host:
+    - python >=3.6
     - pip
-    - python >=3.4
   run:
-    - google-api-core >=1.14.0,<2.0.0dev
-    - python >=3.4
+    - python >=3.6
+    - google-api-core-grpc >=1.22.2,<2.0.0dev
     - grpcio
+    - libcst >= 0.2.5
+    - proto-plus >= 1.4.0
 
 test:
   imports:
