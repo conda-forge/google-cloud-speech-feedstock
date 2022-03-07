@@ -1,5 +1,5 @@
 {% set name = "google-cloud-speech" %}
-{% set version = "2.13.0" %}
+{% set version = "2.13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-speech-{{ version }}.tar.gz
-  sha256: 34eda8c55b336e6d8a6223763429f779d232071f84fbeb2db494e065dff25f34
+  sha256: 2718480b838cb178dd258343a261219873d40b3bde152d287835ac5ffc1de730
 
 build:
   number: 0
@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.28.0,<3.0.0dev
-    - proto-plus >=1.4.0
+    - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
+    - proto-plus >=1.15.0
 
 test:
   imports:
