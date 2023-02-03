@@ -1,5 +1,5 @@
 {% set name = "google-cloud-speech" %}
-{% set version = "2.17.2" %}
+{% set version = "2.17.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-speech-{{ version }}.tar.gz
-  sha256: d5a6799445796281f5f754e0ffa28f2ac5c8acd6103ac0c4c65a20438fa70e9f
+  sha256: 46018bf525e5988e2672e2fca6170f382886a36c61cd165b9e9470ef65352b32
 
 build:
   noarch: python
