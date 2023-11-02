@@ -1,5 +1,5 @@
 {% set name = "google-cloud-speech" %}
-{% set version = "2.21.1" %}
+{% set version = "2.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-speech-{{ version }}.tar.gz
-  sha256: 4935375eaaf18656e53e2631770b9d579e80cb4ec1b3d46dd23346f789aa016a
+  sha256: 95928a898692d7eaa05566d57a2138eb8b5b9234b1c3ccb72c552071ed2a3ab0
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-speech
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Speech API client library
   license: Apache-2.0
   license_file: LICENSE
