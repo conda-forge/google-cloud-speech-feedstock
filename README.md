@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Speech API client library
 
-Development: https://github.com/googleapis/python-speech
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-speech
 
 Documentation: https://googleapis.dev/python/speech/latest/index.html
 
