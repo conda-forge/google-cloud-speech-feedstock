@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-speech
-  version: "2.36.1"
+  version: "2.37.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_speech-${{ version }}.tar.gz
-  sha256: 30fef3b30c1e1b5f376be3cf82a724c8629994de045935f85e4b7bceae8c2129
+  sha256: 1b2debf721954f1157fb2631d19b29fbeeba5736e58b71aaf10734d6365add59
 
 build:
   number: 0
